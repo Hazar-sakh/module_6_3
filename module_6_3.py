@@ -17,7 +17,7 @@ class Eagle:
         return self.y_distance
 
 
-class Pegasus(Eagle, Horse):
+class Pegasus(Horse, Eagle):
 
     def __init__(self):
         super().__init__()
